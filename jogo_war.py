@@ -41,7 +41,7 @@ while (cont_cartas_jogador1 > 0 and cont_cartas_jogador2 > 0):
 
         cont_cartas_jogador2 -= 1
         
-if cont_cartas_jogador1 > cont_cartas_jogador2:
+if pontos_jogador1 > pontos_jogador2:
     print("Jogador 1 venceu")
 else:
     print("Jogador 2 venceu")
